@@ -15,7 +15,7 @@
 * **Educational & Professional Use**: Perfect for both AIoT educational kits and industrial prototyping.
 
 ---
-
+![BRICKS-ESP32](./img/bricks_structure.png)
 ## 🛠 Hardware Specifications
 **BRICKS-ESP32** is an all-in-one **IoT Edge Device** optimized for **Smart Home and Smart Farm** applications. Powered by the **ESP32-S3** chipset, it provides a comprehensive platform for sensor data collection, local processing, visualization, and wireless communication on a single board.
 
@@ -93,9 +93,6 @@ A comprehensive set of 10 specialized IoT sensor modules designed for seamless i
 
 ---
 
-![BRICKS-ESP32](./img/bricks_structure.png)
-
----
 
 © 2026 AxisFab by Leekoos. All rights reserved.
 

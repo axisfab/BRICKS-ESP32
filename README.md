@@ -17,27 +17,14 @@
 ---
 
 ## 🛠 Hardware Specifications
-This device is designed to be compatible with high-end display systems and diverse industrial environments.
+**BRICKS-ESP32** is an all-in-one **IoT Edge Device** optimized for **Smart Home and Smart Farm** applications. Powered by the **ESP32-S3** chipset, it provides a comprehensive platform for sensor data collection, local processing, visualization, and wireless communication on a single board.
 
 | Feature | Specification | Remarks |
 | :--- | :--- | :--- |
 | **Main MCU** | **ESP32-S3** (Dual-core) | All-in-one IoT SoC |
-| **Target Display** | 65-inch Smart Board | |
-| **Resolution** | 4K UHD (3840x2160) or higher | QHD Compatible |
-| **OS Support** | Android 9 or higher | |
-| **Memory** | 2GB RAM or higher | |
-| **Storage** | 32GB Flash or higher | |
-| **Touch Type** | IR Touch Screen | |
-| **Panel Type** | LCD | |
-| **Connectivity** | Wi-Fi, Bluetooth, HDMI, USB, Audio | |
-
----
-
-## 📂 Project Structure
-```text
-.
-├── example/              # Arduino source code (.ino)
-│   └── Blink/           # Basic LED control example
-├── img/                  # Project assets and hardware photos
-│   └── bricks_esp32.png # Main device image
-└── README.md             # Project documentation
+| **MEMS Sensor** | SHTC3(Temperture, Humidity), Mic(ICS-43434) | |
+| **Wi-Fi** | 802.11 b/g/n (2.4GHz) | |
+| **Bluetooth** | BLE 5.0 | |
+| **Display** | 0.96" OLED, 128 x 64, I2C | |
+| **Extension I/F** | ADC, GPIO, I2C, SPI, UART | |
+| **Power&Debug** | 5V, USB C-Type | |

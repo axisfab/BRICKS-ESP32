@@ -29,6 +29,7 @@
 | **Extension I/F** | ADC, GPIO, I2C, SPI, UART | |
 | **Power&Debug** | 5V, USB C-Type | |
 
+---
 
 ![BRICKS-ESP32](./img/bricks_structure.png)
 

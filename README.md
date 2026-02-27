@@ -41,9 +41,10 @@ A comprehensive set of 10 specialized IoT sensor modules designed for seamless i
 * **Standardized Interface:** Features a **3-pin (VCC / SIG / GND)** interface for easy wiring and rapid prototyping.
 * **Diverse Protocols:** Includes Digital, Analog, and $I^2C$ communication standards.
 
-## 🧠 Core Processor: ESP32-S3
+---
+## 🧠 IoT Core Processor: ESP32-S3
 The kit's edge devices are built around the **ESP32-S3-WROOM-1**, a high-performance, low-power MCU-based SoC.
-### Technical Specifications
+## Technical Specifications
 * **CPU:** Xtensa® dual-core 32-bit LX7 microprocessor.
 * **Memory:** Up to 16MB Flash and 16MB PSRAM.
 * **Wireless:** 2.4 GHz Wi-Fi ($802.11 b/g/n$) and **Bluetooth® 5 (LE)** with long-range support.
@@ -68,9 +69,7 @@ The kit's edge devices are built around the **ESP32-S3-WROOM-1**, a high-perform
 | **RELAY** | RD-DC3V-SL-C | Output | Digital | Power Control |
 | **BUZZER** | CMT-8504-100-SMT-TR | Output | Digital | Audio Output |
 | **DISTANCE DETECTION** | VL53L1CXV0FY | Input | $I^2C$ | Distance Ranging (ToF) |
----
 
-## 🛠 Hardware Overview
 ### Interaction & Feedback
 * **Tact & Rotary Switch:** Simple and multi-step user input methods.
 * **Cross LED & Buzzer:** Visual and audible feedback for system status monitoring.
@@ -95,12 +94,7 @@ The kit's edge devices are built around the **ESP32-S3-WROOM-1**, a high-perform
     * **Dimensions:** 38 x 28 x 12 (cm).
 ![BRICKS-ESP32](./img/bricks_kit.png)
 
-
-
-
-
-
-
+---
 
 ![BRICKS-ESP32](./img/bricks_structure.png)
 

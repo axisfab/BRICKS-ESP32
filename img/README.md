@@ -1,0 +1,1 @@
+BRICKS-ESP32 IoT Edge Device

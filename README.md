@@ -31,5 +31,67 @@
 
 ---
 
+# IoT Sensor Kit (10 Types)
+
+A comprehensive set of 10 specialized IoT sensor modules designed for seamless integration with various MCU platforms. This kit features digital, analog, and MEMS-based sensors optimized for low-voltage environments.
+
+---
+
+## ✨ Key Features
+
+* **10 Specialized Sensors:** A versatile lineup for diverse IoT and Physical AI projects.
+* **Broad Compatibility:** Supports **3.3V to 5V** low-voltage environments (ESP32, Arduino, Raspberry Pi, etc.).
+* **Standardized Interface:** Features a **3-pin (VCC / SIG / GND)** interface for easy wiring and rapid prototyping.
+* **Diverse Protocols:** Includes Digital, Analog, and $I^2C$ communication standards.
+
+---
+
+## 📊 Sensor Specifications
+
+| Sensor Name | Major Component | I/O Type | Output | Primary Function |
+| :--- | :--- | :--- | :--- | :--- |
+| **TACT SWITCH** | - | Input | Digital | Momentary Input |
+| **CROSS LED** | 1608 LED | Output | Digital | Status Indicator |
+| **ROTARY SWITCH** | - | Input | Analog | Step Selection |
+| **CDS** | GL105 Photoresistor | Input | Analog | Light Intensity Detection |
+| **IMU** | ICM-20948 | Input | $I^2C$ | Attitude & Acceleration |
+| **TEMP/HUMIDITY** | DHT11 | Input | Digital | Environmental Sensing |
+| **PIR MOTION** | AM412 | Input | Digital | Motion Detection |
+| **RELAY** | RD-DC3V-SL-C | Output | Digital | Power Control |
+| **BUZZER** | CMT-8504-100-SMT-TR | Output | Digital | Audio Output |
+| **DISTANCE DETECTION** | VL53L1CXV0FY | Input | $I^2C$ | Distance Ranging (ToF) |
+
+---
+
+## 🛠 Hardware Overview
+### Interaction & Feedback
+* **Tact & Rotary Switch:** Simple and multi-step user input methods.
+* **Cross LED & Buzzer:** Visual and audible feedback for system status monitoring.
+### Environmental & Motion Sensing
+* **DHT11 & CDS:** Reliable tracking of temperature, humidity, and ambient light levels.
+* **IMU (ICM-20948):** High-precision 9-axis MEMS sensor for motion tracking.
+* **PIR Motion:** Detects human or animal movement via infrared sensitivity.
+### Control & Precision
+* **Relay:** Enables microcontrollers to switch high-power external devices.
+* **Distance Detection:** High-accuracy Time-of-Flight (ToF) technology for distance measurement via $I^2C$.
+---
+
 ![BRICKS-ESP32](./img/bricks_structure.png)
+
+---
+
+© 2026 AxisFab by Leekoos. All rights reserved.
+
+
+
+
+
+
+
+
+
+
+
+
+
 

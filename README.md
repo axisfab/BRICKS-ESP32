@@ -30,18 +30,6 @@
 | **Power&Debug** | 5V, USB C-Type | |
 
 ---
-
-## IoT Sensor Kit (10 Types)
-
-A comprehensive set of 10 specialized IoT sensor modules designed for seamless integration with various MCU platforms. This kit features digital, analog, and MEMS-based sensors optimized for low-voltage environments.
-
-## ✨ Key Features
-* **10 Specialized Sensors:** A versatile lineup for diverse IoT and Physical AI projects.
-* **Broad Compatibility:** Supports **3.3V to 5V** low-voltage environments (ESP32, Arduino, Raspberry Pi, etc.).
-* **Standardized Interface:** Features a **3-pin (VCC / SIG / GND)** interface for easy wiring and rapid prototyping.
-* **Diverse Protocols:** Includes Digital, Analog, and $I^2C$ communication standards.
-
----
 ## 🧠 IoT Core Processor: ESP32-S3
 The kit's edge devices are built around the **ESP32-S3-WROOM-1**, a high-performance, low-power MCU-based SoC.
 ## Technical Specifications
@@ -55,6 +43,15 @@ The kit's edge devices are built around the **ESP32-S3-WROOM-1**, a high-perform
     * "World Controller" providing two isolated execution environments (TEE).
 ![BRICKS-ESP32](./img/esp.png)
 ---
+
+## IoT Sensor Kit (10 Types)
+A comprehensive set of 10 specialized IoT sensor modules designed for seamless integration with various MCU platforms. This kit features digital, analog, and MEMS-based sensors optimized for low-voltage environments.
+
+## ✨ Key Features
+* **10 Specialized Sensors:** A versatile lineup for diverse IoT and Physical AI projects.
+* **Broad Compatibility:** Supports **3.3V to 5V** low-voltage environments (ESP32, Arduino, Raspberry Pi, etc.).
+* **Standardized Interface:** Features a **3-pin (VCC / SIG / GND)** interface for easy wiring and rapid prototyping.
+* **Diverse Protocols:** Includes Digital, Analog, and $I^2C$ communication standards.
 
 ## 📊 Sensor Specifications
 | Sensor Name | Major Component | I/O Type | Output | Primary Function |

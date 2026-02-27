@@ -54,6 +54,7 @@ A comprehensive set of 10 specialized IoT sensor modules designed for seamless i
 * **Diverse Protocols:** Includes Digital, Analog, and $I^2C$ communication standards.
 
 ## 📊 Sensor Specifications
+![BRICKS-ESP32](./img/bricks_sensors.png)
 | Sensor Name | Major Component | I/O Type | Output | Primary Function |
 | :--- | :--- | :--- | :--- | :--- |
 | **TACT SWITCH** | - | Input | Digital | Momentary Input |
@@ -77,10 +78,10 @@ A comprehensive set of 10 specialized IoT sensor modules designed for seamless i
 ### Control & Precision
 * **Relay:** Enables microcontrollers to switch high-power external devices.
 * **Distance Detection:** High-accuracy Time-of-Flight (ToF) technology for distance measurement via $I^2C$.
-![BRICKS-ESP32](./img/bricks_sensors.png)
 ---
 
 ## 📦 Kit Contents
+![BRICKS-ESP32](./img/bricks_kit.png)
 * **2x IoT Edge Devices:** Includes the **BRICKS-ESP32** board by **AxisFab by LeeKoos**.
 * **10x Specialized Sensors:** A comprehensive digital, analog, and $I^2C$ sensor lineup.
 * **1x Actuator:** MG90D Micro Servo Motor for motion control.
@@ -89,7 +90,6 @@ A comprehensive set of 10 specialized IoT sensor modules designed for seamless i
 * **Storage Solutions:** Includes a dedicated sensor storage case and a premium aluminum carrying case.
     * **Aluminum Case Features:** Integrated TSA dial lock for security.
     * **Dimensions:** 38 x 28 x 12 (cm).
-![BRICKS-ESP32](./img/bricks_kit.png)
 
 ---
 

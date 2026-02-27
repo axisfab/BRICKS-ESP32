@@ -31,23 +31,31 @@
 
 ---
 
-# IoT Sensor Kit (10 Types)
+## IoT Sensor Kit (10 Types)
 
 A comprehensive set of 10 specialized IoT sensor modules designed for seamless integration with various MCU platforms. This kit features digital, analog, and MEMS-based sensors optimized for low-voltage environments.
 
----
-
 ## ✨ Key Features
-
 * **10 Specialized Sensors:** A versatile lineup for diverse IoT and Physical AI projects.
 * **Broad Compatibility:** Supports **3.3V to 5V** low-voltage environments (ESP32, Arduino, Raspberry Pi, etc.).
 * **Standardized Interface:** Features a **3-pin (VCC / SIG / GND)** interface for easy wiring and rapid prototyping.
 * **Diverse Protocols:** Includes Digital, Analog, and $I^2C$ communication standards.
 
+## 🧠 Core Processor: ESP32-S3
+The kit's edge devices are built around the **ESP32-S3-WROOM-1**, a high-performance, low-power MCU-based SoC.
+### Technical Specifications
+* **CPU:** Xtensa® dual-core 32-bit LX7 microprocessor.
+* **Memory:** Up to 16MB Flash and 16MB PSRAM.
+* **Wireless:** 2.4 GHz Wi-Fi ($802.11 b/g/n$) and **Bluetooth® 5 (LE)** with long-range support.
+* **AI Acceleration:** Includes **Vector Instructions** to accelerate neural network computing and signal processing workloads (optimized via ESP-DSP and ESP-NN libraries).
+* **Rich Peripherals:** 45 programmable GPIOs supporting SPI, $I^2S$, $I^2C$, PWM, RMT, ADC, UART, and SD/MMC host.
+* **Security:** * AES-XTS based flash encryption & RSA based Secure Boot.
+    * Digital Signature and HMAC modules.
+    * "World Controller" providing two isolated execution environments (TEE).
+![BRICKS-ESP32](./img/esp.png)
 ---
 
 ## 📊 Sensor Specifications
-
 | Sensor Name | Major Component | I/O Type | Output | Primary Function |
 | :--- | :--- | :--- | :--- | :--- |
 | **TACT SWITCH** | - | Input | Digital | Momentary Input |
@@ -60,7 +68,6 @@ A comprehensive set of 10 specialized IoT sensor modules designed for seamless i
 | **RELAY** | RD-DC3V-SL-C | Output | Digital | Power Control |
 | **BUZZER** | CMT-8504-100-SMT-TR | Output | Digital | Audio Output |
 | **DISTANCE DETECTION** | VL53L1CXV0FY | Input | $I^2C$ | Distance Ranging (ToF) |
-
 ---
 
 ## 🛠 Hardware Overview
@@ -74,7 +81,26 @@ A comprehensive set of 10 specialized IoT sensor modules designed for seamless i
 ### Control & Precision
 * **Relay:** Enables microcontrollers to switch high-power external devices.
 * **Distance Detection:** High-accuracy Time-of-Flight (ToF) technology for distance measurement via $I^2C$.
+![BRICKS-ESP32](./img/bricks_sensors.png)
 ---
+
+## 📦 Kit Contents
+* **2x IoT Edge Devices:** Includes the **BRICKS-ESP32** board by **AxisFab by LeeKoos**.
+* **10x Specialized Sensors:** A comprehensive digital, analog, and $I^2C$ sensor lineup.
+* **1x Actuator:** MG90D Micro Servo Motor for motion control.
+* **2x USB Dedicated Cables:** For power and high-speed data transmission.
+* **Educational Textbook:** Includes the "Intelligent IoT & Cloud Computing Practice Course".
+* **Storage Solutions:** Includes a dedicated sensor storage case and a premium aluminum carrying case.
+    * **Aluminum Case Features:** Integrated TSA dial lock for security.
+    * **Dimensions:** 38 x 28 x 12 (cm).
+![BRICKS-ESP32](./img/bricks_kit.png)
+
+
+
+
+
+
+
 
 ![BRICKS-ESP32](./img/bricks_structure.png)
 

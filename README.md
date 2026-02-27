@@ -21,10 +21,14 @@
 
 | Feature | Specification | Remarks |
 | :--- | :--- | :--- |
-| **Main MCU** | **ESP32-S3** (Dual-core) | All-in-one IoT SoC |
+| **Main MCU** | **ESP32-S3** (Dual-core) Xtensa LX7 | All-in-one IoT SoC |
 | **MEMS Sensor** | SHTC3(Temperture, Humidity), Mic(ICS-43434) | |
 | **Wi-Fi** | 802.11 b/g/n (2.4GHz) | |
 | **Bluetooth** | BLE 5.0 | |
 | **Display** | 0.96" OLED, 128 x 64, I2C | |
 | **Extension I/F** | ADC, GPIO, I2C, SPI, UART | |
 | **Power&Debug** | 5V, USB C-Type | |
+
+
+![BRICKS-ESP32](./img/bricks_structure.png)
+

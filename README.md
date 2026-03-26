@@ -1,111 +1,142 @@
-# BRICKS-ESP32: Intelligent IoT Edge Device
-> **All-in-One Development Platform for AIoT Education & Prototyping**
+# BRICKS-ESP32: Intelligent IoT Edge Device  
+> **AIoT 교육 및 프로토타이핑을 위한 All-in-One 개발 플랫폼**
 
 ![BRICKS-ESP32](./img/bricks_esp32.png)
 
-## 🌟 Introduction
-**BRICKS-ESP32** is a professional-grade **IoT Edge Device** designed by **AxisFab**. It serves as a comprehensive on-device solution for intelligent IoT education and rapid prototype manufacturing. Powered by the **ESP32-S3** chipset, this platform integrates high-performance computing with versatile hardware interfaces.
+---
+
+## 🌟 Introduction | 제품 소개  
+**BRICKS-ESP32**는 **AxisFab**에서 개발한 **지능형 IoT Edge Device**로,  
+고등학교 및 대학교 교육과 빠른 프로토타이핑을 위한 **통합형 AIoT 플랫폼**입니다.
+
+고성능 **ESP32-S3** 기반으로 설계되어,  
+센서 데이터 수집 → 로컬 처리 → 시각화 → 무선 통신까지  
+**하나의 디바이스에서 모두 구현 가능한 All-in-One 시스템**입니다.
 
 ---
 
-## 🚀 Key Features
-* **All-in-One AIoT Platform**: A specialized on-device solution optimized for intelligent IoT applications.
-* **Advanced Chipset**: Built on the **ESP32-S3** for powerful edge computing and connectivity.
-* **Integrated Interface Design**: Features specialized **MEMS** and interface layouts for seamless sensor data acquisition and actuator control.
-* **Educational & Professional Use**: Perfect for both AIoT educational kits and industrial prototyping.
+## 🚀 Key Features | 주요 특징  
+* **All-in-One AIoT Platform**  
+  → 센서, 디스플레이, 통신이 통합된 온디바이스 AIoT 솔루션  
+
+* **High-Performance MCU (ESP32-S3)**  
+  → Edge AI 및 실시간 데이터 처리에 최적화  
+
+* **Integrated Interface Design**  
+  → MEMS 센서 및 다양한 인터페이스(GPIO, I2C, SPI 등) 내장  
+
+* **Education & Prototyping Ready**  
+  → 교육용 실습 + 산업용 시제품 개발까지 모두 대응  
 
 ---
+
 ![BRICKS-ESP32](./img/bricks_structure.png)
-## 🛠 Hardware Specifications
-**BRICKS-ESP32** is an all-in-one **IoT Edge Device** optimized for **Smart Home and Smart Farm** applications. Powered by the **ESP32-S3** chipset, it provides a comprehensive platform for sensor data collection, local processing, visualization, and wireless communication on a single board.
 
-| Feature | Specification | Remarks |
+## 🛠 Hardware Specifications | 하드웨어 사양  
+**BRICKS-ESP32**는 **Smart Home / Smart Farm 환경**에 최적화된  
+통합형 IoT Edge Device입니다.
+
+| Feature | Specification | 설명 |
 | :--- | :--- | :--- |
-| **Main MCU** | **ESP32-S3** (Dual-core) Xtensa LX7 | All-in-one IoT SoC |
-| **MEMS Sensor** | SHTC3(Temperture, Humidity), Mic(ICS-43434) | |
-| **Wi-Fi** | 802.11 b/g/n (2.4GHz) | |
-| **Bluetooth** | BLE 5.0 | |
-| **Display** | 0.96" OLED, 128 x 64, I2C | |
-| **Extension I/F** | ADC, GPIO, I2C, SPI, UART | |
-| **Power&Debug** | 5V, USB C-Type | |
+| **Main MCU** | ESP32-S3 (Dual-core LX7) | 고성능 IoT SoC |
+| **MEMS Sensor** | SHTC3, ICS-43434 Mic | 온습도 + 음성 입력 |
+| **Wi-Fi** | 802.11 b/g/n (2.4GHz) | 무선 네트워크 |
+| **Bluetooth** | BLE 5.0 | 저전력 통신 |
+| **Display** | 0.96" OLED (128x64) | 상태 시각화 |
+| **Extension I/F** | GPIO, ADC, I2C, SPI, UART | 확장 인터페이스 |
+| **Power** | 5V USB Type-C | 전원 및 디버깅 |
 
 ---
-## 🧠 IoT Core Processor: ESP32-S3
-The kit's edge devices are built around the **ESP32-S3-WROOM-1**, a high-performance, low-power MCU-based SoC.
-## Technical Specifications
-* **CPU:** Xtensa® dual-core 32-bit LX7 microprocessor.
-* **Memory:** Up to 16MB Flash and 16MB PSRAM.
-* **Wireless:** 2.4 GHz Wi-Fi ($802.11 b/g/n$) and **Bluetooth® 5 (LE)** with long-range support.
-* **AI Acceleration:** Includes **Vector Instructions** to accelerate neural network computing and signal processing workloads (optimized via ESP-DSP and ESP-NN libraries).
-* **Rich Peripherals:** 45 programmable GPIOs supporting SPI, $I^2S$, $I^2C$, PWM, RMT, ADC, UART, and SD/MMC host.
-* **Security:** * AES-XTS based flash encryption & RSA based Secure Boot.
-    * Digital Signature and HMAC modules.
-    * "World Controller" providing two isolated execution environments (TEE).
-![BRICKS-ESP32](./img/esp.png)
+
+## 🧠 IoT Core Processor | ESP32-S3  
+
+본 키트는 **ESP32-S3-WROOM-1** 기반으로 동작하며,  
+AIoT 실습에 최적화된 성능을 제공합니다.
+
+### Technical Highlights
+* **Dual-core Xtensa LX7 CPU**  
+* **Up to 16MB Flash / PSRAM 지원**  
+* **Wi-Fi + Bluetooth 5 (LE)**  
+* **AI Acceleration (Vector Instructions)**  
+* **45 GPIO & 다양한 Peripheral 지원**  
+* **보안 기능 (Secure Boot, Flash Encryption)**  
+
 ---
 
-## IoT Sensor Kit (10 Types)
-A comprehensive set of 10 specialized IoT sensor modules designed for seamless integration with various MCU platforms. This kit features digital, analog, and MEMS-based sensors optimized for low-voltage environments.
+## 🔧 IoT Sensor Kit (10 Types) | 센서 키트 구성  
 
-## ✨ Key Features
-* **10 Specialized Sensors:** A versatile lineup for diverse IoT and Physical AI projects.
-* **Broad Compatibility:** Supports **3.3V to 5V** low-voltage environments (ESP32, Arduino, Raspberry Pi, etc.).
-* **Standardized Interface:** Features a **3-pin (VCC / SIG / GND)** interface for easy wiring and rapid prototyping.
-* **Diverse Protocols:** Includes Digital, Analog, and $I^2C$ communication standards.
+다양한 IoT 실습을 위한 **10종 센서 모듈 세트**
 
-## 📊 Sensor Specifications
+### ✨ Features
+* Digital / Analog / I2C 센서 통합 구성  
+* 3.3V ~ 5V 호환 (ESP32, Arduino, Raspberry Pi)  
+* 3핀 구조 (VCC / SIG / GND) → 쉬운 연결  
+
+---
+
 ![BRICKS-ESP32](./img/bricks_sensors.png)
-| Sensor Name | Major Component | I/O Type | Output | Primary Function |
-| :--- | :--- | :--- | :--- | :--- |
-| **TACT SWITCH** | - | Input | Digital | Momentary Input |
-| **CROSS LED** | 1608 LED | Output | Digital | Status Indicator |
-| **ROTARY SWITCH** | - | Input | Analog | Step Selection |
-| **CDS** | GL105 Photoresistor | Input | Analog | Light Intensity Detection |
-| **IMU** | ICM-20948 | Input | $I^2C$ | Attitude & Acceleration |
-| **TEMP/HUMIDITY** | DHT11 | Input | Digital | Environmental Sensing |
-| **PIR MOTION** | AM412 | Input | Digital | Motion Detection |
-| **RELAY** | RD-DC3V-SL-C | Output | Digital | Power Control |
-| **BUZZER** | CMT-8504-100-SMT-TR | Output | Digital | Audio Output |
-| **DISTANCE DETECTION** | VL53L1CXV0FY | Input | $I^2C$ | Distance Ranging (ToF) |
 
-### Interaction & Feedback
-* **Tact & Rotary Switch:** Simple and multi-step user input methods.
-* **Cross LED & Buzzer:** Visual and audible feedback for system status monitoring.
-### Environmental & Motion Sensing
-* **DHT11 & CDS:** Reliable tracking of temperature, humidity, and ambient light levels.
-* **IMU (ICM-20948):** High-precision 9-axis MEMS sensor for motion tracking.
-* **PIR Motion:** Detects human or animal movement via infrared sensitivity.
-### Control & Precision
-* **Relay:** Enables microcontrollers to switch high-power external devices.
-* **Distance Detection:** High-accuracy Time-of-Flight (ToF) technology for distance measurement via $I^2C$.
+## 📊 Sensor List | 센서 구성
+
+| Sensor | Type | Function |
+| :--- | :--- | :--- |
+| Tact Switch | Digital Input | 사용자 입력 |
+| Cross LED | Digital Output | 상태 표시 |
+| Rotary Switch | Analog Input | 단계 선택 |
+| CDS Sensor | Analog | 조도 감지 |
+| IMU (ICM-20948) | I2C | 자세/가속도 |
+| Temp/Humidity | Digital | 환경 측정 |
+| PIR Motion | Digital | 움직임 감지 |
+| Relay | Digital Output | 전원 제어 |
+| Buzzer | Digital Output | 알림 |
+| ToF Distance | I2C | 거리 측정 |
+
 ---
 
-## 📦 Kit Contents
+## 🧩 Learning & Interaction | 학습 요소  
+
+### 🎮 Input / Output  
+* Tact Switch, Rotary → 사용자 인터랙션  
+* LED, Buzzer → 피드백 시스템  
+
+### 🌍 Environment Sensing  
+* 온습도, 조도, 모션 센서 기반 스마트 환경 구현  
+
+### 🤖 Smart Control  
+* Relay + Distance Sensor → 자동화 시스템 구현  
+
+---
+
+## 📦 Kit Contents | 구성품  
+
 ![BRICKS-ESP32](./img/bricks_kit.png)
-* **2x IoT Edge Devices:** Includes the **BRICKS-ESP32** board by **AxisFab by LeeKoos**.
-* **10x Specialized Sensors:** A comprehensive digital, analog, and $I^2C$ sensor lineup.
-* **1x Actuator:** MG90D Micro Servo Motor for motion control.
-* **2x USB Dedicated Cables:** For power and high-speed data transmission.
-* **Educational Textbook:** Includes the "Intelligent IoT & Cloud Computing Practice Course".
-* **Storage Solutions:** Includes a dedicated sensor storage case and a premium aluminum carrying case.
-    * **Aluminum Case Features:** Integrated TSA dial lock for security.
-    * **Dimensions:** 38 x 28 x 12 (cm).
+
+* **2x BRICKS-ESP32 Device**  
+* **10x Sensor Modules**  
+* **1x Servo Motor (MG90D)**  
+* **2x USB Cable (Type-C)**  
+* **교육용 교재 (IoT & Cloud 실습)**  
+* **센서 보관 케이스 + 알루미늄 캐리어**  
+
+### 🎒 Carrying Case
+* TSA Lock 적용  
+* Size: 38 × 28 × 12 cm  
 
 ---
 
+## 🎯 Target Applications | 활용 분야  
+* 스마트홈 (Smart Home)  
+* 스마트팜 (Smart Farm)  
+* AIoT 교육 (High School / University)  
+* 임베디드 시스템 실습  
+* 프로토타입 개발 (Rapid Prototyping)  
+
+---
+
+## 💡 Concept  
+> **“Learn AIoT by Building, Not Just Coding”**  
+코딩을 넘어, **직접 만들며 배우는 AIoT 플랫폼**
+
+---
 
 © 2026 AxisFab by Leekoos. All rights reserved.
-
-
-
-
-
-
-
-
-
-
-
-
-
-

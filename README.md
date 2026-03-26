@@ -1,6 +1,5 @@
 # BRICKS-ESP32: Intelligent IoT Edge Device  
 > **AIoT 교육 및 프로토타이핑을 위한 All-in-One 개발 플랫폼**
-
 ![BRICKS-ESP32](./img/bricks_esp32.png)
 
 ---
@@ -133,10 +132,6 @@ AIoT 실습에 최적화된 성능을 제공합니다.
 
 ---
 
-## 💡 Concept  
-> **“Learn AIoT by Building, Not Just Coding”**  
-코딩을 넘어, **직접 만들며 배우는 AIoT 플랫폼**
 
----
 
 © 2026 AxisFab by Leekoos. All rights reserved.

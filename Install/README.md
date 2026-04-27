@@ -60,14 +60,12 @@ void loop() {
   delay(500);
 }
 
-
-
-
+```
 ---
 
-# 📦 2. BRICKS-ESP 개발환경 (PlatformIO)
 
-```markdown
+
+
 # 📦 BRICKS-ESP 개발환경 (PlatformIO)
 
 ## 🔹 Overview
@@ -112,7 +110,14 @@ framework = arduino
 monitor_speed = 115200
 upload_speed = 921600
 
+board_upload.flash_size = 4MB
+board_build.flash_mode = dio
+board_build.partitions = default.csv
+board_build.f_flash = 80000000L
+board_build.f_cpu = 240000000L
+
 build_flags =
-    -DARDUINO_USB_CDC_ON_BOOT=1
-
-
+  -D ARDUINO_USB_MODE=1
+  -D ARDUINO_USB_CDC_ON_BOOT=1
+  -D ESP32S3_FLASH_SIZE_4MB
+```
